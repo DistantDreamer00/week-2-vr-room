@@ -1,0 +1,96 @@
+<DOCTYPE html></DOCTYPE>
+
+<html>
+<head>
+<title>My second XR experience</title>
+<script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+<a-scene>
+<a-box
+position="0 0 -7"
+scale="10 2 1"
+color="#141414">
+</a-box>
+
+<a-box
+position="0 0 -5"
+scale="2 2 6"
+color="#141414">
+</a-box>
+
+<a-sphere
+position="0 9 -20"
+radius="8"
+color="#FFF5B3">
+</a-sphere>
+
+<a-plane
+position="0 0 -4"
+rotation="-90 0 0"
+width="20"
+height="20"
+color="crimson">
+</a-plane>
+
+<a-text
+value="FUTURE OF FASHION"
+position="-1.50 3.5 -4"
+color="black"
+width="7">
+</a-text>
+
+<a-cylinder
+position="-3 2 -4"
+scale="1 5 1"
+color="#FFF5B3"
+ animation="property: rotation;
+               to: 0 360 0;
+               dur: 8000;
+               loop: true;
+               easing: linear">
+</a-cylinder>
+
+<a-box
+position="-3 0 -4"
+scale="2.25 1 2"
+color="black">
+</a-box>
+
+<a-cylinder
+position="3 2 -4"
+scale="1 5 1"
+color="#FFF5B3"
+animation="property: rotation;
+               to: 0 360 0;
+               dur: 8000;
+               loop: true;
+               easing: linear">
+</a-cylinder>
+
+<a-box
+position="3 0 -4"
+scale="2.25 1 2"
+color="black">
+</a-box>
+
+<a-light
+type="ambient"
+color="#403E3E"
+intensity=".40">
+</a-light>
+
+<a-light
+type="point"
+color="white"
+intensity="3"
+position="0 5 -5">
+</a-light>
+
+<a-sky color="black"></a-sky>
+
+
+</a-scene>
+</body>
+</html>
